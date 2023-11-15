@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts//Manrope-VariableFont_wght.ttf") format("truetype");
+  font-family: "JLR";
+  src: url("./fonts//JLR-Chinese-Love.ttf") format("truetype");
+  font-family: "SBchinese";
+  src: url("./fonts//SBchinese.ttf") format("truetype");
+  font-family: "KaiTi";
+  src: url("./fonts//KaiTi.ttf") format("truetype");
+  /* You can add additional font properties here if needed */
+}
+
+/* Use the font in your styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+  background-image: url("../public/background/bg.svg");
+  /* background-color: rgba(141, 124, 148, 0.2); */
+}
